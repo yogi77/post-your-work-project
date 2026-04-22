@@ -31,7 +31,7 @@ pip install pandas numpy
 Usage
 Run the program from the command line:
 
-bash
+```bash
 python bikeshare.py
 You will be prompted to:
 
@@ -56,7 +56,7 @@ Code
 ├── business-operations-survey.csv           # Sample dataset
 └── README.md             # Project documentation
 📝 Notes
-This project is for educational purposes and demonstrates data analysis techniques.
+This project is for educational purposes and demonstrates data analysis techniques. everyone can use for educational purpose.
 
 The datasets are sample files and may not reflect current bikeshare statistics.
 
