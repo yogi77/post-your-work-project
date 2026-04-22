@@ -23,6 +23,8 @@ This repository contains:
   - `pandas`
   - `numpy`
   - `time`
+ - `OS`
+
 
 Install dependencies with:
 ```bash
@@ -35,7 +37,7 @@ Run the program from the command line:
 python bikeshare.py
 You will be prompted to:
 
-Select a city dataset (Chicago, New York City, Washington).
+Select a city dataset (Chicago, New York City, Washington, Texas).
 
 Apply filters (month, day).
 
