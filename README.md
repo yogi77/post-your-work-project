@@ -1,82 +1,27 @@
-# Bikeshare Data Exploration Project
+>**Note**: Please **fork** this Udacity repository so you have a **remote** repository in **your** GitHub account. Then you can clone the remote repository to your local machine. Later, as a part of the project, you will push your changes to the remote repository in your GitHub account.
 
-## 📌 Project Overview
-The goal of this project is to use **Python** to explore and analyze data related to bike share systems.  
-It demonstrates how to work with real-world datasets, perform data wrangling, and extract meaningful insights.
 
-This repository contains:
-- One Python script (`bikeshare.py`)
-- One or more CSV data files (e.g., `chicago.csv`, `new_york_city.csv`, `washington.csv`)
+# Project Title
 
-## 🎯 Objectives
-- Load and process bikeshare data using Python.
-- Compute descriptive statistics such as:
-  - Most popular travel times
-  - Commonly used stations
-  - Trip duration statistics
-  - User demographics
-- Provide an interactive experience where users can filter data by city and timeframe.
+Describe what your project is about and what it does
 
-## ⚙️ Requirements
-- Python 3.x
-- Libraries:
-  - `pandas`
-  - `numpy`
-  - `time`
-  - `os`
+## Information about how to use your project
 
-Install dependencies with:
-bash 
-``` 
-pip install pandas numpy
-```
+This could include:
 
-## 🚀 Getting Started
+- Step-by-step instructions for installing or setting up your project.
+- Any software dependencies that need to be installed.
+- Instructions and examples for how to use your project, including any helpful code snippets.
+- Common issues and troubleshooting tips
 
-Follow these steps to set up and run the project:
+## Contribution guidelines
 
-1. Clone the repository:
+If you welcome contributions, provide guidelines on how others can contribute to your project.
 
-   bash
-    ```
-    git clone https://github.com/your-username/bikeshare-project.git
-    cd bikeshare-project
-    ```
-2. Install dependencies:
+## Credits
 
-   bash
-    ```
-    pip install -r requirements.txt
-    ```
-3. Run the program:
+It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
-   bash
-   ```
-   python bikeshare.py
-   ```
-4. Interact with the program
-  - Select a city dataset (Chicago, New York City, Washington, Texas).
-  - Apply filters (month, day).
-  - View calculated statistics interactively.
+## Date created
 
-## 📊 Example Insights
-- Peak travel hours for commuters
-- Most popular start and end stations
-- Average trip duration
-- Breakdown of user types (subscribers vs. customers)
-
-## 📂 Project Structure
-```
-├── bikeshare.py                   # Main Python script
-├── business-operations-survey.csv # Sample dataset
-└── README.md                      # Project documentation
-```
-## 📝 Notes
-- This project is for educational purposes and demonstrates data analysis techniques.
-- Everyone is free to use it for learning.
-- The datasets are sample files and may not reflect current bikeshare statistics.
-- In a real-world project, ensure datasets are accurate and up to date.
-
-## 📌 License
-This project is released under the MIT License.
-You are free to use, modify, and distribute it with attribution.
+Include the date you created this project and README file.
