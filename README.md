@@ -23,46 +23,57 @@ This repository contains:
   - `pandas`
   - `numpy`
   - `time`
- - `OS`
-
+  - `os`
 
 Install dependencies with:
-```bash
+bash 
+``` 
 pip install pandas numpy
+```
 
-Usage
-Run the program from the command line:
+## 🚀 Getting Started
 
-```bash
-python bikeshare.py
-You will be prompted to:
+Follow these steps to set up and run the project:
 
-Select a city dataset (Chicago, New York City, Washington, Texas).
+1. Clone the repository
+   Run below command in cmd:
+```
+git clone https://github.com/your-username/bikeshare-project.git
+cd bikeshare-project
+```
+2. Install dependencies:
+   Run below command in cmd:
+```
+pip install -r requirements.txt
+```
+3. Run the program
+   Run below command in cmd:
+   ```
+   python bikeshare.py
+   ```
+4. Interact with the program
+  - Select a city dataset (Chicago, New York City, Washington, Texas).
+  - Apply filters (month, day).
+  - View calculated statistics interactively.
 
-Apply filters (month, day).
+## 📊 Example Insights
+- Peak travel hours for commuters
+- Most popular start and end stations
+- Average trip duration
+- Breakdown of user types (subscribers vs. customers)
 
-View calculated statistics interactively.
+## 📂 Project Structure
+```
+├── bikeshare.py                   # Main Python script
+├── business-operations-survey.csv # Sample dataset
+└── README.md                      # Project documentation
+```
+## 📝 Notes
+- This project is for educational purposes and demonstrates data analysis techniques.
+- Everyone is free to use it for learning.
+- The datasets are sample files and may not reflect current bikeshare statistics.
+- In a real-world project, ensure datasets are accurate and up to date.
 
-📊 Example Insights
-Peak travel hours for commuters.
-
-Most popular start and end stations.
-
-Average trip duration.
-
-Breakdown of user types (subscribers vs. customers).
-
-📂 Project Structure
-Code
-├── bikeshare.py          # Main Python script
-├── business-operations-survey.csv           # Sample dataset
-└── README.md             # Project documentation
-📝 Notes
-This project is for educational purposes and demonstrates data analysis techniques. everyone can use for educational purpose.
-
-The datasets are sample files and may not reflect current bikeshare statistics.
-
-In a real-world project, ensure datasets are accurate and up to date.
-
-📌 License
-This project is released under the MIT License. You are free to use, modify, and distribute it with attribution.
+## 📌 License
+This project is released under the MIT License.
+You are free to use, modify, and distribute it with attribution.
